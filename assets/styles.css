@@ -1,0 +1,24 @@
+/* startb of banner css */
+body{
+    background-image: url('./img/pdpBG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.discountBanner{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: max-content;
+    padding: 10px;
+    background-color: #be0c11;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+
