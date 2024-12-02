@@ -72,8 +72,6 @@ let couponBannerObject = {
   },
 };
 
-console.log(couponBannerObject);
-
 const bannerFiller = () => {
   let productNme = document.querySelector(".product-heading__title");
   let productPrice = document.querySelector(".price-container");
@@ -82,8 +80,8 @@ const bannerFiller = () => {
     console.log( productNme.innerText.toLowerCase().includes(coupon["keyword"]),coupon["keyword"], price < coupon["max"] , price > coupon["min"])
     if (
       productNme.innerText.toLowerCase().includes(coupon["keyword"]) &&
-      price < coupon["max"] &&
-      price > coupon["min"]
+      price <= coupon["max"] &&
+      price >= coupon["min"]
     ) {
       
       console.log(

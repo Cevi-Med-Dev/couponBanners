@@ -2,7 +2,7 @@
 body{
     background-image: url('./img/pdpBg.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
 }
 .product-view__heading.product-heading{
