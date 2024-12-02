@@ -1,11 +1,15 @@
 /* startb of banner css */
 body{
-    background-image: url('./img/pdpBG.jpg');
+    background-image: url('./img/pdpBg.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 100vh;
 }
-
+.product-view__heading.product-heading{
+    top: 100px;
+    position: relative;
+    font-size: 8px;
+}
 .discountBanner{
     position: fixed;
     top: 0;
